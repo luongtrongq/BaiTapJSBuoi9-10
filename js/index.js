@@ -6,7 +6,7 @@ document.getElementById("tableDanhSach").addEventListener("click",deleteNV);
 document.getElementById("btnCapNhat").addEventListener("click",capNhatNV);
 //Search
 document.getElementById("btnTimNV").addEventListener("click",timNV)
-
+document.getElementById("btnThem").addEventListener("click",resetForm)
 
 function NhanVien(taiKhoanNV,tenNV,emailNV,matKhauNV,ngayLamNV,luongCB,chucVu,gioLam)
 {
